@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import YouTube from 'react-youtube'
 import ReactTooltip from 'react-tooltip'
+import { Link } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
 import allData from './data'
@@ -123,6 +124,14 @@ class Theater extends Component {
                 <br />
                 Rozbor diskuze na Demagog.cz: <a href={discussionData.demagogUrl} target="_blank">{discussionData.demagogUrl}</a>
               </p>
+
+              <br />
+
+              <Link to="/" className="btn btn-default">
+                <span className="glyphicon glyphicon-chevron-left" />
+                {' '}
+                Zpět na hlavní stránku projektu
+              </Link>
             </div>
           </div>
           <div className="col-xs-4">
