@@ -103,7 +103,7 @@ class Theater extends Component {
       <div className="container" style={{ marginTop: 30, width: '1170px' }}>
         <div className="row">
           <div className="col-xs-8">
-            <div style={{ position: 'fixed' }}>
+            <div style={{ position: 'fixed', width: '750px' }}>
               <YouTube
                 videoId={discussionData.videoId}
                 opts={{
@@ -125,13 +125,29 @@ class Theater extends Component {
                 Rozbor diskuze na Demagog.cz: <a href={discussionData.demagogUrl} target="_blank">{discussionData.demagogUrl}</a>
               </p>
 
-              <br />
+              <hr />
 
-              <Link to="/" className="btn btn-default">
-                <span className="glyphicon glyphicon-chevron-left" />
+              <p>
+                <Link to="/" className="btn btn-default">
+                  <span className="glyphicon glyphicon-chevron-left" />
+                  {' '}
+                  Zpět na hlavní stránku projektu
+                </Link>
+              </p>
+
+              <p className="text-muted">
+                S Demagogem je experiment propojení videozáznamu politické diskuze s ověřenými fakty z projektu Demagog.cz.
                 {' '}
-                Zpět na hlavní stránku projektu
-              </Link>
+                Propojení takovým způsobem, aby šlo sledovat diskuzi a zároveň vidět, které výroky (a s jakým výsledkem) jsou ověřené.
+                {' '}
+                Lidově řečeno: „Aby šlo na diskuzi koukat <em>s Demagogem.</em>“
+              </p>
+
+              <p className="text-muted">
+                Všechna data jsou zkopírována ze serveru Demagog.cz a v rámci experimentu zde použita bez svolení.<br />
+                Veškerý kód je veřejně dostupný <a href="https://github.com/vlki/s-demagogem">na GitHubu</a>.<br />
+                Kontakt: <a href="mailto:jan.vlcek@vlki.cz">jan.vlcek@vlki.cz</a>
+              </p>
             </div>
           </div>
           <div className="col-xs-4">
