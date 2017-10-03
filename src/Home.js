@@ -28,8 +28,8 @@ class Home extends Component {
         </div>
 
         <p className="text-muted">
-          Všechna data jsou zkopírována ze serveru Demagog.cz a v rámci experimentu zde použita bez svolení.
-          <br />
+          Všechna data jsou zkopírována ze serveru Demagog.cz a v rámci experimentu zde použita bez svolení.<br />
+          Veškerý kód je veřejně dostupný <a href="https://github.com/vlki/s-demagogem">na GitHubu</a>.<br />
           Kontakt: <a href="mailto:jan.vlcek@vlki.cz">jan.vlcek@vlki.cz</a>
         </p>
       </div>
