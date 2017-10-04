@@ -8,17 +8,17 @@ export default [
     youtubeUrl: 'https://www.youtube.com/watch?v=bWBuu23A6LE',
     checks: [
       {
-        highlightStart: 63,
-        highlightEnd: 67,
+        highlightStart: '1:03',
+        highlightEnd: '1:07',
         statement: 'Skoro 800 tisíc lidí má na sobě nějakou exekuci…',
-        result: 'truth',
+        result: 'pravda',
         explanation: 'Exekutorská komora České republiky vede <a href="http://www.ekcr.cz/1/aktuality-pro-media/2289-tiskova-zprava-ctyri-a-vice-exekuci-ma-jiz-413-tisic-obcanu-ceske-republiky-v-roce-2016-klesl-pocet-nove-narizenych-exekuci-narostl-vsak-celkovy-pocet-bezicich-pripadu?w=" target="_blank">statistiky</a> o počtu vedených exekucí. V roce 2016 probíhalo 4,5 mil. exekucí proti 834 tis. dlužníků – fyzickým osobám. Proti celkem 68 tis. právnických osob bylo vedeno 228 tis. exekucí. Celková vymáhaná částka byla 325 mld. korun.'
       },
       {
-        highlightStart: 125,
-        highlightEnd: 131,
+        highlightStart: '2:05',
+        highlightEnd: '2:11',
         statement: '… čeští lidé si domů skutečně nepřinesou čtyři pětiny, ani tolik, kolik je minimální mzda v Německu.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Více než polovina obyvatel České republiky opravdu měsíčně nevydělá více, než činí čtyři pětiny minimální mzdy v Německu. Výrok proto hodnotíme jako pravdivý.
 
 Minimální mzda v Německu aktuálně <a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=earn_mw_cur&lang=en" target="_blank">činí</a> 1 498 EUR, po přepočtu na naši měnu se dostaneme na částku zhruba 39 000 Kč. Čtyři pětiny z této částky pak vychází na 31 200 Kč.
@@ -28,10 +28,10 @@ Co se týče České republiky, podle Českého statistického úřadu <a href="
 Podrobnější informace o rozložení zaměstnanců do mzdových pásem jsou pak <a href="http://www.platy.cz/partner/region-list" target="_blank">dostupné</a> na webu Platy.cz, přičemž při pohledu na celkové procento zaměstnanců, kteří se pohybují v kategoriích 30 000 Kč a výše, se v jednotlivých krajích dostaneme k 20 až 30 % z celkového počtu zaměstnanců. Výjimku představuje Praha, kde jsou platy oproti zbytku republiky vyšší, a v této kategorii je zde celá polovina zaměstnanců.`
       },
       {
-        highlightStart: 131.05,
-        highlightEnd: 141,
+        highlightStart: '2:11.05',
+        highlightEnd: '2:21',
         statement: 'Takže posilovat, posilovat vlastně to bohatství těch efektivních lidí v České republice a my máme efektivitu snad 88 procent, o čem se jako v řadě zemí Evropy může zdát.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Výrok hodnotíme jako pravdivý, neboť uvedený údaj o efektivitě práce je chybný pouze o několik procent a vedle toho je pravda, že horší produktivita práce než v ČR je v devíti evropských zemích.
 
 Bartoš efektivitou míní produktivitu práce. Produktivita práce se zpravidla měří jako poměr HDP dle kupní síly k celkovému počtu hodin práce v ekonomice. Eurostat sbírá údaje o <a href="http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tec00116" target="_blank">produktivitě práce</a> v jednotlivých evropských zemích. Nejnovější dostupné údaje jsou za rok 2016 a vyplývá z nich, že produktivita práce v ČR dosahovala 80,8 % průměru EU, nikoliv tedy uváděných 88 %.
@@ -39,10 +39,10 @@ Bartoš efektivitou míní produktivitu práce. Produktivita práce se zpravidla
 Horší produktivita práce než v ČR byla hned v devíti evropských zemích. Jmenovitě se jednalo o Bulharsko, Estonsko, Chorvatsko, Lotyšsko, Litvu, Maďarsko, Polsko, Portugalsko a Rumunsko. Produktivita práce v těchto zemích se pohybovala mezi 45–77,8 % průměru EU.`
       },
       {
-        highlightStart: 3 * 60 + 13,
-        highlightEnd: 3 * 60 + 34,
+        highlightStart: '3:13',
+        highlightEnd: '3:34',
         statement: 'My obecně a jako Pirátská strana toto měla od samého počátku ve svém programu. Hovoříme o transparentních organizacích, o kontrole vlastně nakládání s těmi penězi těch pojištěnců, které, který ty peníze do toho systému vlastně průběžně dávají a následně i jejich efektivní čerpání a tady je velká otázka kontroly a fungování zdravotních pojišťoven.',
-        result: 'misleading',
+        result: 'zavadejici',
         explanation: `Pirátská strana vznikla v roce <a href="https://www.pirati.cz/o-nas/" target="_blank">2009</a>, její první volební program se tak týká parlamentních voleb v roce <a href="https://wiki.pirati.cz/volby2010/komplet" target="_blank">2010</a>, druhý pak voleb v roce <a href="https://wiki.pirati.cz/volby2013/program" target="_blank">2013</a>. Ani v jednom z těchto dvou programů není obsažena kapitola zdravotnictví nebo stanoviska k fungování zdravotních pojišťoven.
 
 Jinak je tomu v případě dlouhodobého programu strany a volebního programu pro letošní parlamentní volby. Ve svém <a href="https://www.pirati.cz/program/dlouhodoby/zdravotnictvi/" target="_blank">dlouhodobém programu</a> strana uvádí: <i>„Zprůhledníme finance ve zdravotnictví a omezíme vliv farmaceutického průmyslu.“ a dále, že „Veřejné zdravotní pojišťovny musí hájit zájmy svých pojištěnců a dohlížet na kvalitu poskytované péče. Nelze připustit, aby na veřejném zdravotním pojištění vydělávaly podnikatelské skupiny.“</i>
@@ -52,10 +52,10 @@ V <a href="https://www.pirati.cz/program/psp2017/zdravotnictvi/" target="_blank"
 Výrok tedy hodnotíme jako zavádějící, neboť Piráti sice ve svém dlouhodobém programu o této otázce mluví, v jednotlivých volebních programech se s výjimkou letošního roku toto téma však neobjevilo.`
       },
       {
-        highlightStart: 4 * 60 + 45,
-        highlightEnd: 4 * 60 + 54,
+        highlightStart: '4:45',
+        highlightEnd: '4:54',
         statement: 'V minulých letech vláda schválila několik zásadních zdravotních registrů a my se teď připojujeme k evropské iniciativě vlastně sdílení těch informací o těch pacientech.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `V současnosti je <a href="http://www.uzis.cz/registry/narodni-zdravotni-registry" target="_blank">vedeno</a> dvanáct Národních zdravotních registrů, naposledy k jejich rozšíření došlo v roce 2016 po přijetí vládou navržené novely zákona o zdravotních službách. Rozšířeny byly o diabetologický registr a registr intenzivní péče.
 
 Prostřednictvím dat z Národních zdravotních registrů mají být <a href="http://www.uzis.cz/registry/narodni-zdravotni-registry" target="_blank">zkoumány</a> příčiny a důsledky všech onemocnění. Dále má být například sledován vznik, výskyt, vývoj a příčina onemocnění v návaznosti na další poskytovanou péči. Zpracování dat má sloužit také pro zjištění zdravotního stavu obyvatelstva a využívání zdravotní péče, aby bylo možné zlepšovat kvalitu zdraví populace. Záznamy v Národních zdravotních registrech však nezahrnují informace jako jméno, příjmení, adresa a další detailnější osobní informace pacienta. Data z těchto registrů nejsou veřejně přístupná.
@@ -75,19 +75,19 @@ Organizace pracující se zdravotními údaji budou muset přesně vědět, kde 
 Spolupráce s Eurostatem při sběru dat je upravena nařízením (EU) 1338/2008. Eurostat pravidelně sbírá statistické údaje o veřejném zdraví, státy tyto údaje poskytují na bázi dobrovolnosti. Nařízením (EU) 1338/2008 má být zajištěno právo na ochranu osobních údajů. V rámci tohoto nařízení platí směrnice <a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:354:0070:0081:CS:PDF" target="_blank">95/46/EHS</a> (.pdf), která bude novým nařízením (EU) 2016/679 nahrazena. Česká republika se podílí na spolupráci s Eurostatem.`
       },
       {
-        highlightStart: 11*60 + 21.3,
-        highlightEnd: 11*60 + 27.3,
+        highlightStart: '11:21.3',
+        highlightEnd: '11:27.3',
         statement: '… aby jsme se pak nedočetli v novinách, že ministrovi zahraničí někdo pronikl do soukromého mailu a podobně.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `V lednu tohoto roku se hackeři nabourali do <a href="http://www.ceskenoviny.cz/zpravy/e-maily-ministerstva-zahranici-napadli-hackeri-mozna-z-jine-zeme/1444439" target="_blank">e-mailových schránek</a> pracovníků ministerstva zahraničních věcí i ministra samotného.
 
 Hackeři z e-mailových schránek podle ministra Zaorálka <a href="https://www.irozhlas.cz/zpravy-domov/hackeri-napadli-e-maily-ministerstva-zahranici-utok-provedl-cizi-stat-sdelil-zaoralek_201701311500_mzak" target="_blank">stáhli</a> obrovský objem dat. Nicméně se údajně nedostali do vnitřního systému, kde jsou uchována citlivá data, ale pouze do vnější části systému, do e-mailových schránek zaměstnanců, ministra a jeho náměstků.`
       },
       {
-        highlightStart: 13*60 + 38.8,
-        highlightEnd: 13*60 + 44.3,
+        highlightStart: '13:38.8',
+        highlightEnd: '13:44.3',
         statement: 'Když se podíváte na příjmovou strukturu České republiky, tak nikdo nemá žádné úspory.',
-        result: 'untruth',
+        result: 'nepravda',
         explanation: `Výrok Ivana Bartoše o úsporách obyvatel České republiky je nepravdivý, i přes porovnání s okolními bohatšími zeměmi neobstojí tvrzení, že nikdo nemá žádné úspory.
 
 Budeme-li pracovat pouze s absolutní výší úspor nebo mírou úspor občanů ČR, tak Ivan Bartoš nemá pravdu, když říká, že lidé žádné úspory nemají. Dle statistiky ČSÚ činila míra úspor domácností za rok <a href="https://www.czso.cz/csu/czso/cri/ctvrtletni-sektorove-ucty-4-ctvrtleti-2016" target="_blank">2016</a> 12,1 % (vůči hrubému disponibilnímu důchodu) a za první kvartál roku <a href="https://www.czso.cz/csu/czso/cri/ctvrtletni-sektorove-ucty-1-ctvrtleti-2017" target="_blank">2017</a> 9,1 %.
@@ -105,10 +105,10 @@ Podrobnější informace o úsporách (finančích aktivech) obyvatel zemí Evro
 Pro převod USD na CZK byl použit kurz <a href="http://www.cnb.cz/cs/index.html" target="_blank">ČNB</a> z 27. září 2017 a pro USD a EUR údaje <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html" target="_blank">ECB</a> rovněž z 27. září 2017.`
       },
       {
-        highlightStart: 15*60 + 1.5,
-        highlightEnd:  15*60 + 24,
+        highlightStart: '15:01.5',
+        highlightEnd: '15:24',
         statement: 'My jsme třeba v rámci naší kampaně spojili, spustili stránku úřad.piráti.cz, kde jsme ukázali živě, jak funguje založit s.r.o. během jednoho dne, kde si to člověk za 10 minut nakliká. (…) My jsme deseti firmám, deseti lidem, kteří použili tu aplikaci jako demo verzi funkční založili tu firmu tímto způsobem.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Server <a href="https://urad.pirati.cz/" target="_blank">urad.pirati.cz</a> skutečně představuje veřejnosti řešení, které významně zlevňuje a zjednodušuje založení společnosti s ručením omezeným.
 
 Podle webu stojí nyní právní úkony související se zřízením společnosti 10 113 Kč. Online řešení Pirátů tuto cenu srazí na částku 500 Kč, kterou bude moci budoucí podnikatel zaplatit online. Prvních deset firem (jejich seznam se nám nepodařilo dohledat) založila tímto způsobem strana na své náklady, ostatní uživatelé si proces mohou otestovat alespoň v rámci demo verze.
@@ -116,19 +116,19 @@ Podle webu stojí nyní právní úkony související se zřízením společnost
 Aplikaci jsme vyzkoušeli a s její pomocí bychom skutečně mohli založit firmu do deseti minut. Ověří duplicitu názvu firmy, umožní přidat společníky a dokonce registruje firmu k finančnímu úřadu.`
       },
       {
-        highlightStart: 16*60 + 21.5,
-        highlightEnd: 16*60 + 26.9,
+        highlightStart: '16:21.5',
+        highlightEnd: '16:26.9',
         statement: 'Tam se dokonce, a to je pro Čechy úplně vzdálená budoucnost, jako dá volit přes internet (v Estonsku, pozn. Demagog.cz).',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Elektronické volby v Estonsku fungují od roku <a href="http://202020.cz/jak-probihaji-volby-na-internetu-v-estonsku/" target="_blank">2005</a> a v posledních volbách tento způsob hlasování využila téměř třetina voličů. Využít mohou buď svůj čipový občanský průkaz, nebo speciální volební aplikaci. Estonsko zároveň i nadále umožňuje účastnit se voleb klasickým „papírovým“ způsobem.
 
 Některé evropské země, včetně Německa, Norska nebo Itálie, v minulosti systém elektronického hlasování <a href="https://www.ndi.org/e-voting-guide/electronic-voting-and-counting-around-the-world" target="_blank">testovaly</a>, ale nakonec se rozhodly od něj upustit. V České republice jsou elektronické volby zatím předmětem diskuze, jejich zavedení by musela <a href="http://202020.cz/mohli-cesi-volit-parlamentu-elektronicky/" target="_blank">předcházet</a> například novelizace volebních zákonů nebo technické zabezpečení volebních informačních systémů.`
       },
       {
-        highlightStart: 17*60 + 24,
-        highlightEnd: 17*60 + 36,
+        highlightStart: '17:24',
+        highlightEnd: '17:36',
         statement: '… po osmi letech aktivní politiky, kde jsme každé volby povyrostli až tak, že máme třeba starostu v Mariánských Lázních. Máme pět krajských zastupitelů z naší pomoci byli zvolení čtyři senátoři.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Předseda Pirátů Ivan Bartoš má pravdu, že straně roste počet zastupitelů. Momentálně opravdu mají pět krajských zastupitelů a starostu v Mariánských lázních.
 
 <b>Volby do Poslanecké sněmovny Parlamentu České republiky</b>
@@ -160,10 +160,10 @@ V doplňovacích volbách na <a href="https://www.volby.cz/pls/senat/se1111?xjaz
 V roce 2016 byli v rámci koaliční podpory kandidáta zvoleni dva senátoři s podporou Pirátů. Renata Chmelová byla zvolena v koalici KDU-ČSL, Piráti, DPD a LES a Ladislav Kos v koalici KDU-ČSL, SZ, HPP11 a Piráti. Koaličně tak byli zvoleni jen dva senátoři. `
       },
       {
-        highlightStart: 17*60 + 36.1,
-        highlightEnd: 17*60 + 55,
+        highlightStart: '17:36.1',
+        highlightEnd: '17:55',
         statement: 'Já věřím v úspěch v těhle parlamentních volbách už jen z toho důvodu, že průzkumy, které vydávala Česká televize po krajských volbách, hovořily o tom, že Piráti mají potenciál 10 procent mezi nevoliči. O tom, že zvažují Piráti, volit Piráty má v současné chvíli 15 procent lidí.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Po posledních krajských volbách, které se konaly ve dnech 7. a 8. října 2016, zpracovala agentura <a href="http://www.ceskatelevize.cz/ct24/sites/default/files/1827238-median_krajske_volby2016_motivace_a_struktura_volicu.pdf" target="_blank">Median</a> pro Českou televizi výzkum zveřejněný 12. října 2016. Sběr dat probíhal v předvolebním období, a to od 3. do 7. října 2016. Výzkum se v jedné své části zaměřoval na pravděpodobnou volbu těch, kteří ve výzkumu avizovali neúčast.
 
 Potenciál Pirátů a jejich koalic v tomto výzkumu opravdu činí 10 % hlasů (tamtéž, str. 7). Tedy podle daného výzkumu Medianu by Piráti měli šanci získat až desetinu hlasů od lidí, co k volbám nepřišli.
@@ -175,19 +175,19 @@ Co se týče současných výzkumů, které se zabývají volbami do Poslanecké
 Ještě doplňme, že <a href="http://www.kpes.upol.cz/besmart/modules/courses/files/48.pdf" target="_blank">volební potenciál</a> je situace, která říká, kolik hlasů může strana teoreticky získat, kdyby ji volili všichni lidé, kteří její volbu zvažují a zároveň nevylučují účast ve volbách. Volič přitom jako svou potenciální volbu může označit více politických stran (Tomáš Lebeda, str. 25).`
       },
       {
-        highlightStart: 19*60 + 1,
-        highlightEnd: 19*60 + 18,
+        highlightStart: '19:01',
+        highlightEnd: '19:18',
         statement: 'V tom, co vy jste citoval, jmenuje se to Demokratické minimum, což například znamená, že ten náš poslanec nebo i člen v rámci stranického hlasování nehlasuje o ničem, o čem neměl dost informací, nebyl informován s předstihem. U čeho nemůže udělat tu kvalifikovanou, kvalifikované rozhodnutí.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `V programu Pirátů se skutečně vyskytuje pojem <a href="https://www.pirati.cz/program/dlouhodoby/minimum/" target="_blank">Demokratické minimum</a>. Demokratické minimum je prohlášení, které je kandidát Pirátské strany povinen podepsat před každými volbami. V prohlášení stojí, že kandidát podpoří jen ten návrh, se kterým byl dopředu seznámen.
 
 Podobné formulace, které používá předseda Bartoš, jsou obsaženy i v <a href="https://pirati-web.github.io/pirati.cz/program/psp2017/kodex-poslance/" target="_blank">Kodexu poslance</a> Pirátské strany. V té se kandidát na poslance například zavazuje, že bude konzultovat před hlasováním své záměry na jednání klubu či že nebude hlasovat proti usnesení celostátního fóra. Kodex rovněž obsahuje informaci, že závazky z něj vyplývající jsou <i>„závazky vůči České pirátské straně, s <b>právními účinky plně vynutitelnými</b> žalobou na plnění zaslanou soudu, včetně vydání případného bezdůvodného obohacení, a to do státního rozpočtu. To neplatí při výkonu mandátu, kde to Ústava neumožňuje a v těchto případech jde o závazek voličům v morální rovině postižitelný disciplinárními prostředky včetně řízení u rozhodčí komise Pirátů."</i>`
       },
       {
-        highlightStart: 19*60 + 43,
-        highlightEnd: 20*60 + 16,
+        highlightStart: '19:43',
+        highlightEnd: '20:16',
         statement: 'Tak já jako příklad uvedu hlavní město Prahu, kde máme vlastně první volební období 4 pirátské zastupitele v opozici. (…) My jsme rozkryli kauzu, připravili jsme jí kompletně pro Radu města Prahy. Ve věci Opencard upozornili jsme na, na multiplikaci funkcí paní Kleslové, která záhy některé ze svých dozorčích rad a aktivit minimálně utlumila.',
-        result: 'truth',
+        result: 'pravda',
         explanation: `Pražští piráti mají skutečně velkou zásluhu na odkrytí několika korupčních kauz.
 
 V 65členném zastupitelstvu hlavního města od roku 2014 skutečně zasedají čtyři <a href="http://www.praha.eu/jnp/cz/o_meste/primator_a_volene_organy/zastupitelstvo/politicke_kluby/index.html?clubId=29961" target="_blank">piráti</a>, ani jeden z nich přitom <a href="http://www.praha.eu/jnp/cz/o_meste/primator_a_volene_organy/rada/slozeni_rady/index.html" target="_blank">nezasedá</a> v městské radě.
@@ -201,10 +201,10 @@ Další podněty pravidelně zveřejňují na <a href="https://praha.pirati.cz/"
 Jejich aktivitu v minulém roce dokládá také 81 <a href="https://praha.idnes.cz/dotazy-na-magistrat-pirati-230-tisic-kritika-adriana-krnacova-pl2-/praha-zpravy.aspx?c=A170711_2337952_praha-zpravy_nub" target="_blank">žádostí</a> o zveřejnění dokumentů na základě zákona o svobodném přístupu k informacím. Piráti tak stojí za necelou pětinou zveřejněných dokumentů.`
       },
       {
-        highlightStart: 22*60 + 59,
-        highlightEnd: 23*60 + 10,
+        highlightStart: '22:59',
+        highlightEnd: '23:10',
         statement: 'Když si vezmete historicky třeba jenom sčítání, sčítání obyvatelstva a data, která jste vy o sobě musel vydat a neodevzdání toho bylo pod pohrůžkou pokuty 20 tisíc korun.',
-        result: 'untruth',
+        result: 'nepravda',
         explanation: `<i>Doplňujeme, že předseda Bartoš v této části hovoří o mnohdy likvidační šikaně lidí, jakožto fyzických osob. (Ty nároky na člověka jsou enormní, když si vezmete třeba sčítání obyvatelstva. Neodevzdání dat o své osobě bylo pod pohrůžkou pokuty 20 tisíc korun. To je likvidační pro běžného člověka s platem třeba 14 tisíc.)</i>
 
 Sčítání lidu, domů a bytů v roce 2011 <a href="https://www.czso.cz/documents/10180/20534046/1900013u.pdf/d6256a8b-e7be-4ec9-92f5-f46cab3d2674?version=1.0" target="_blank">proběhlo</a> k půlnoci z 25. na 26. března toho roku. Na základě <a href="https://www.czso.cz/documents/11308/23212108/sldb_ep.pdf/73e19e68-7897-4b34-8820-9f9dc2b62e0e" target="_blank">nařízení</a> Evropského parlamentu a Rady (ES) č. 763/2008 Parlament České republiky vydal <a href="https://www.zakonyprolidi.cz/cs/2009-296" target="_blank">zákon</a> č. 296/2009 Sb., o sčítání lidu.
@@ -226,95 +226,95 @@ Předseda Bartoš mluví právě o fyzických osobách v kontextu šikany občan
     "youtubeUrl": "https://www.youtube.com/watch?v=wA_lu6pYE6Y",
     "checks": [
       {
-        "highlightStart": 91,
-        "highlightEnd": 103,
+        "highlightStart": '1:31',
+        "highlightEnd": '1:43',
         "statement": "Vláda na ten příští rok opět schválila rozpočet s deficitem, to znamená, že chce vydat více, než kolik vybere na daních, o desítky miliard korun.",
-        "result": "truth",
+        "result": "pravda",
         "explanation": "Vládou schválený <a href=\"https://apps.odok.cz/attachment/-/down/2ORNAQQJMZYJ\">návrh </a>(.zip) rozpočtu na rok 2018 počítá se schodkem ve výši 50 mld. korun (.xls, příloha 1). Zatímco příjmy mají tvořit 1 302 mld. Kč, výdaje mají být 1 352 mld. Kč.\n\nVětšinu příjmů tvoří opravdu daně a sociální odvody (1 198 mld., tedy 92 % z příjmů státní kasy), zbytek tvoří například kapitálové příjmy a peníze z Evropské unie (návrh počítá s 70 mld. Kč z evropského rozpočtu).\n\nVláda návrh <a href=\"http://www.ceskenoviny.cz/zpravy/vlada-posila-snemovne-navrh-rozpoctu-se-schodkem-50-mld-/1530573\">schválila</a> v pondělí 25. září, bude dále projednáván v Poslanecké sněmovně."
       },
       {
-        "highlightStart": 3 * 60 + 7,
-        "highlightEnd": 3 * 60 + 37,
+        "highlightStart": '3:07',
+        "highlightEnd": '3:37',
         "statement": "Způsob financování (zdravotnictví, pozn. Demagog.cz) je ještě takový reliktem socialismu. Máme několik zdravotních pojišťoven, které si ovšem nemohou ve skutečnosti konkurovat. Každá musí nabízet to stejné a to, co vyberou od klientů, pojištěnců, vlastně není pojištění, je to 13,5% daň, která se navíc mezi těma pojišťovnama ze zákona rozděluje, takže kdo tam má více těch, co čerpají více, tak získá peníze zase od těch druhých.",
-        "result": "truth",
+        "result": "pravda",
         "explanation": "Základní způsob financování zdravotních pojišťoven prostřednictvím odvodu pojistného, které činí 13,5 % a dále se mezi zdravotními pojišťovnami přerozděluje, odpovídá výroku europoslance Macha. V rámci nabídky preventivních programů a doplňkových služeb se pojišťovny sice odlišují, jde ovšem o velmi malý segment v rámci celého systému. Výrok hodnotíme tedy jako pravdivý. <br /><br>Veřejné zdravotní pojištění v rámci ČR <a href=\"http://www.mzcr.cz/Cizinci/obsah/zdravotni-pojistovny_2619_22.html\">poskytuje</a> sedm zdravotních pojišťoven, z nichž největší je Všeobecná zdravotní pojišťovna (VZP). Stručný popis fungování systému zdravotního pojištění v ČR je <a href=\"http://www.mzcr.cz/KvalitaABezpeci/obsah/verejne-zdravotni-pojisteni-v-cr_3347_29.html\">dostupný</a> na stránkách ministerstva zdravotnictví: <br><p class=\"MsoNormal\"><i>„V České republiceje systém poskytování zdravotní péče založen na principu solidarity, kdy jepodle Bismarckovského modelu zdravotnictví pro všechny občany povinné odvádětplatbu za zdravotní pojištění do fondů zdravotních pojišťoven. Všichni pojištěnciodvádí platbu 13,5 % z vyměřovacího základu. Týká se to jak zaměstnanců(1/3 hradí zaměstnanec a 2/3 zaměstnavatel), tak osob samostatněvýdělečně činných (OSVČ) a osob bez zdanitelných příjmů (OBZP). Za zákonemvymezené skupiny občanů (např. seniory, studenty, nezaopatřené děti atd.) jeplátcem pojistného stát.“</i></p><p class=\"MsoNormal\" style=\"\">Zdravotní pojišťovny se od sebe <a href=\"https://finance.idnes.cz/zdravotni-pojistovny-2017-prevence-speciality-bonusy-pcm-/poj.aspx?c=A170307_095049_poj_sov\">liší</a> svou velikostí, nastavením preventivních programů a doplňkových služeb. Není tedy pravda, že by jejich nabídka byla totožná. Pojištěnci si mohou mezi pojišťovnami <a href=\"http://www.mzcr.cz/KvalitaABezpeci/obsah/verejne-zdravotni-pojisteni-v-cr_3347_29.html\">vybírat</a> a maximálně jednou za 12 měsíců svou pojišťovnu změnit. Prezident Svazu zdravotních pojišťoven ČR v <a href=\"http://szpcr.cz/wp-content/uploads/2017/09/170918_mt_clanek_prez.pdf\">článku</a> (.pdf) pro Medical Tribune uvádí, že <i>tato konkurence mezi pojišťovnami není dosud plně využívána, ačkoliv je nutí pracovat efektivněji</i>. Překážku vidí v <i>legislativních omezeních a silné roli ministerstva zdravotnictví v otázce financování zdravotní péče.</i></p><p class=\"MsoNormal\">Jednotlivé činnosti zdravotních pojišťoven jsou <a href=\"http://www.mzcr.cz/KvalitaABezpeci/obsah/fondy-zdravotnich-pojistoven_3441_29.html\">financovány</a> prostřednictvím fondů, jejichž zůstatky jsou od ledna 2015 <a href=\"https://www.mzcr.cz/obsah/zustatky-na-fondech-zdravotnich-pojistoven_2952_1.html\">dostupné</a> na stránkách ministerstva. Vybrané pojistné je mezi pojišťovnami <a href=\"https://www.mzcr.cz/obsah/prerozdelovani-pojistneho-na-verejne-zdravotni-pojisteni_3211_1.html\">přerozdělováno</a> na základě zákona č. <a href=\"https://www.zakonyprolidi.cz/cs/1992-592#cast3\">592/1992 Sb</a>. za účelem vyrovnání příjmů z pojistného a nákladů spojených s hrazením zdravotní péče. "
       },
       {
-        "highlightStart": 4 * 60 + 37,
-        "highlightEnd": 4 * 60 + 55,
+        "highlightStart": '4:37',
+        "highlightEnd": '4:55',
         "statement": "Evropská unie nám diktovala kvóty, že 40 % lidí má mít vysokou školu, takže je tady taková poptávka ze strany státu po tom, aby vznikaly takové ty různé ekonomické a sociální obory. Přibývá studentů, kteří ovšem potom těžko najdou uplatnění.",
-        "result": "untruth",
+        "result": "nepravda",
         "explanation": "Evropská komise nediktovala České republice kvóty na množství osob s vysokoškolským diplomem, pouze přijala strategický dokument, ve kterém určila jako jeden z cílů zvýšit podíl osob s vysokoškolským diplomem na 40 %. Tento dokument však nemá žádnou právní závaznost, členské státy tak nemůže vázat. Mach dále nemá pravdu ani v uplatnitelnosti vysokoškoláků.<br><br>Petr Mach naráží na strategický dokument <a href=\"https://www.mmr.cz/getmedia/7c31b211-1a5a-46a8-b6bd-151b72dc94ec/EU2020-CJ.pdf\" style=\"\">Evropa 2020</a> (.pdf)<i > </i>z roku 2010, který reagoval na proběhlou hospodářskou krizi a jehož cílem bylo analyzovat strategické cíle, které povedou k udržitelné budoucnosti Evropské unie (.<a href=\"https://www.mmr.cz/getmedia/7c31b211-1a5a-46a8-b6bd-151b72dc94ec/EU2020-CJ.pdf\" >pdf</a>, str. 5). Jedním z těchto cílů bylo <i>„&hellip; zvýšit podíl osob ve věku 30 až 34 let, jež ukončily terciární vzdělání, z 31 % na 40 % v roce 2020.“</i> (<a href=\"https://www.mmr.cz/getmedia/7c31b211-1a5a-46a8-b6bd-151b72dc94ec/EU2020-CJ.pdf\" >.pdf</a>, str. 11).<br><br>Tento dokument byl však vytvořen jako sdělení Evropské komise, kterým se podle <a href=\"http://ec.europa.eu/civiljustice/glossary/glossary_cs.htm#Communication\">Komise</a> samotné <i>„rozumí politický dokument bez právní závaznosti.“ </i>Členské státy tak sdělení Komise vázat nemůže.<br><br>Pokud jde o uplatnitelnost, je zde rozdíl mezi uplatněním v oboru, který absolvent vystudoval, a obecným uplatněním – podle některých analýz totiž hrozí, že vysokoškoláci přeberou práci středoškolákům. Pokud ale necháme tento fakt stranou a podíváme se čistě na n<a href=\"https://www.czso.cz/csu/czso/zamestnanost-a-nezamestnanost-podle-vysledku-vsps-ctvrtletni-udaje-1-ctvrtleti-2017\" >ezaměstnanost</a>, je u vysokoškoláků nízká – poslední údaje z prvního čtvrtletí 2017 hovoří o 1,5 % nezaměstnaných lidí s VŠ, v celé populaci je to 3,4 % (Míra nezaměstnanosti, .xls). Nižší je přitom nezaměstnanost u mladších vysokoškoláků (Nezaměstnanost podle úrovně vzdělání a věku, .xls). Pokud chceme srovnání, pak v roce <a href=\"https://www.czso.cz/csu/czso/zamestnanost-a-nezamestnanost-v-cr-podle-vysledku-vyberoveho-setreni-pracovnich-sil-1-ctvrtleti-2010-8mcv8v5kli\" >2010</a> (ze kterého pochází Evropa 2010) byla nezaměstnanost mezi vysokoškoláky 3,1 %, v celé populaci pak 8 %; jde však o léta finanční krize.<br><br><a href=\"https://www.irozhlas.cz/zpravy-domov/kde-studovat-abyste-neskoncili-na-dlazbe-vysoke-skoly-podle-poctu-absolventu-registrovanych-na-uradu-prace_201507180000_jbocek\">Analýza</a> Českého rozhlasu z roku 2015 ukazuje zaměstnanost vysokoškoláků v jednotlivých oborech v čase. Tato analýza ukazuje, že ačkoliv se zvyšuje počet absolventů humanitních oborů (u kterých se o obtížné uplatnitelnosti mluví především), jejich nezaměstnanost klesá. <i>„Počet absolventů vysokých škol se v závislosti na zaměření studia zvedl dvoj až trojnásobně. Podíl čerstvě vysokoškolsky vzdělaných lidí na pracovním úřadě se přitom ve stejné době nezvětšil, u většiny směrů se dokonce výrazně snížil.“</i> Nezvýšila se tedy ani nezaměstnanost absolventů sociálních a ekonomických oborů, které Mach zmiňuje."
       },
       {
-        "highlightStart": 5 * 60 + 31,
-        "highlightEnd": 5 * 60 + 43,
+        "highlightStart": '5:31',
+        "highlightEnd": '5:43',
         "statement": "A dneska ty soukromé školy jsou diskriminované. Jde ze státního rozpočtu na studenta, na žáka méně a tím pádem rodiče těch dětí, kteří nejsou ve státní, v obecní škole, tak musí doplácet na školném.",
-        "result": "misleading",
+        "result": "zavadejici",
         "explanation": "Soukromé školy jsou státem financované méně, respektive jinak než školy státní. Na soukromých školách tedy rodiče platí školné v různé výši, oproti státním však mají také nesporné výhody: mohou například používat alternativní způsoby výuky, modernější pomůcky a vybavení, plusem může být třeba i menší počet žáků ve třídě a osobnější přístup. Poslat dítě studovat soukromou školu je tak čistě volba rodičů, kteří zváží tyto klady a zápory. Výrok proto hodnotíme jako zavádějící.<br></p><p dir=\"ltr\">Regionálním školám jsou <a href=\"https://www.zakonyprolidi.cz/cs/2004-561#cast14\" >přidělovány</a> finanční prostředky podle celorepublikového a krajského normativu. Ministerstvo školství, mládeže a tělovýchovy stanovuje celorepublikové normativy, tedy výdaje na jednoho žáka, poskytované krajům. Kraje potom rozdělují finance dle stejného principu mezi školy.</p><p dir=\"ltr\">Soukromým školám jsou přiděleny dotace ze státního rozpočtu opět podle počtu žáků. Zařízení, které o dotaci požádá, musí být zapsáno ve školském registru. Soukromé školy neobdrží celou sumu na jednoho žáka, ale jen určitou část stanoveného normativu. Výše procentuálního podílu z normativu se liší podle typu školy, například střední školy dostávají 80 %, základní školy 60 %. Dotace jim mohou být zvýšeny po kontrole České školní inspekce, jestliže nezjistí porušení <a href=\"http://www.msmt.cz/file/38849_1_1/\" >předpisů</a> (.pdf).</p><p dir=\"ltr\">Soukromé školy spojují poplatky za studium většinou s jimi prezentovanou vyšší kvalitou poskytovaného vzdělání a s benefity pro studenty, jako například individuální přístup, příprava na jazykové certifikáty, lepší vybavení školy nebo poskytnutí učebních pomůcek.</p><p dir=\"ltr\">Přijatá novela školského zákona však přinese <a href=\"https://zpravy.aktualne.cz/domaci/skoly-zacnou-dostavat-penize-podle-poctu-oducenych-hodin-sko/r~35c76aacdd6711e6b4b0002590604f2e/\" >změnu</a> ve financování regionálních škol od září 2018. Školám nebudou přidělovány peníze podle počtu žáků, ale na základě počtu odučených hodin a podle vzdělávacích programů. Tato změna se však netýká škol soukromých, které i nadále budou financovány podle počtu žáků."
       },
       {
-        "highlightStart": 6 * 60 + 38,
-        "highlightEnd": 6 * 60 + 50,
+        "highlightStart": '6:38',
+        "highlightEnd": '6:50',
         "statement": "Stát taky uměle požadoval po všech možných úřednících a policistech, aby si dodělali bakalářské vzdělání, aniž by to ve skutečnosti pro ten svůj život potřebovali.",
-        "result": "misleading",
+        "result": "zavadejici",
         "explanation": "Stát skutečně požaduje v rámci státní správy i Policie ČR vysokoškolské vzdělání pro část zaměstnanců. Ovšem Machovo konstatování, že je toto vyžadováno po velkém počtu lidí, neobstojí – např. u policie potřebují titul příslušníci v hodnosti kapitána a výše. Dodejme, že nehodnotíme, zda je správné, aby vysoce postavení vedoucí policisté měli titul, či zda jej nepotřebují. Hodnotíme pouze, zda je tento požadavek nějakou plošnou povinností, jak Mach naznačuje.<br /><br>Pokud vyjdeme z rozřazení k platovým třídám, tak je zřejmé, že pro úředníky jsou dány jisté standardy na vzdělání spojené se zařazením k dané platové třídě. Těch je celkem 16 a vysokoškolské vzdělání <a href=\"https://www.zakonyprolidi.cz/cs/2006-564/zneni-20170701#f3149588\">je vyžadováno</a> od 11. třídy výše. Popis jednotlivých platových tříd je pak ve služebním <a href=\"https://www.zakonyprolidi.cz/cs/2014-234?citace=1#prilohy\">zákoně</a>.<br /><br>V roce 2016 média (například zpravodajský server televize <a href=\"http://www.ceskatelevize.cz/ct24/domaci/1909694-pasti-sluzebniho-zakona-dvema-tisicum-uredniku-hrozi-konec-s-resenim-prisli-senatori\">ČT24</a>) informovala, že Senát chce služební zákon změnit, protože kromě mnoha jiných změn přinesl požadavek na minimálně maturitní vzdělání úředníků. Tento požadavek znamenal pro téměř 2 000 úředníků státní správy hrozbu ztráty pracovního místa. <br /><br>Senát předložil v březnu 2016 novelu zákona o státní službě (sněmovní tisk <a href=\"http://www.psp.cz/sqw/historie.sqw?O=7&T=798\">798</a>), Poslanecká sněmovna <a href=\"https://www.zakonyprolidi.cz/cs/2017-144\">novelu</a> schválila v únoru 2017. Tato změna iniciovaná senátory znamená <a href=\"http://www.ceskenoviny.cz/zpravy/zkuseni-referenti-statnich-uradu-nebudou-muset-mit-maturitu/1474986\">výjimku</a> pro úředníky nad 50 let s dvacetiletou praxí, na něž se tedy povinnost mít maturitní vzdělání nevztahuje. Pro ostatní státní úředníky platí povinnost i nadále.<br /><br>U policistů vychází požadavky na vzdělání ze <a href=\"https://www.zakonyprolidi.cz/cs/2003-361/zneni-20170701#f2465255\">zákona o služebním poměru</a> příslušníků v bezpečnostních sborech – konkrétně z § 7, který popisuje, ke které hodnosti je vyžadováno vysokoškolské vzdělání. Situace je taková, že tuto vzdělanostní úroveň u policie potřebují příslušníci v hodnosti kapitána a výše.<br /><br>Z toho je zřejmé, že stát nepožaduje vysokou školu po všech možných policistech, ale pouze po těch vysoce postavených a ve vysokých hodnostech. Řadovým příslušníkům, kterých je drtivá většina, postačuje maturita."
       },
       {
-        "highlightStart": 7 * 60 + 52,
-        "highlightEnd": 8 * 60 + 3,
+        "highlightStart": '7:52',
+        "highlightEnd": '8:03',
         "statement": "Co se děje například v Itálii, že tam různé organizace soukromé, neziskové, vláda, Evropská unie vozí migranty do Evropy, to je něco, co by u nás bylo trestným činem převaděčství.",
-        "result": "untruth",
+        "result": "nepravda",
         "explanation": "Italská vláda i agentura Frontex se snaží o zastavení pašeráctví migrantů do Evropy, vzhledem k mezinárodnímu právu jsou však v případě tonoucích se migrantů povinni k jejich záchraně a nenavrácení do původního státu, kde jim hrozilo nebezpečí. Do této činnosti se zapojují i některé neziskové organizace. Výrok proto hodnotíme jako nepravdivý.</p><p class=\"MsoNormal\">Mach zmiňuje situaci ve Středozemním moři, kde se ze států severní Afriky, zejména Libye, plaví migranti do Evropy, přičemž jejichž hlavním příjemcem je vzhledem ke geografické poloze Itálie.</p><p class=\"MsoNormal\">Cílem italské vlády spolu s dalšími členskými státy EU v rámci <a href=\"https://eeas.europa.eu/csdp-missions-operations/eunavfor-med/36/about-eunavfor-med-operation-sophia_en\">operací</a> ve Středozemním moři však není převádění, nýbrž <a href=\"https://eeas.europa.eu/csdp-missions-operations/eunavfor-med/36/about-eunavfor-med-operation-sophia_en\">zastavení</a> pašeráctví migrantů do Evropy. Když už však na moři působí, jsou vázáni mezinárodním právem, a to zejména <a href=\"http://www.admiraltylawguide.com/conven/searchrescue1979.html\">Úmluvou</a> o záchraně lidí na moři z roku 1979, podle které jsou přímořské státy povinny podat pomocnou ruku lidem, kteří se na moři ocitnou v nebezpečí.</p><p class=\"MsoNormal\">Proto již v roce 2013 vznikla italská Operace <a href=\"http://www.marina.difesa.it/EN/operations/Pagine/MareNostrum.aspx\">Mare Nostrum</a>, podporována Evropskou komisí, která měla za úkol vyhledávat a zachraňovat uprchlíky, kteří by jinak byli v ohrožení utonutí – za rok fungování operace bylo zachráněno přes 150 000 lidí. Tato operace byla v roce 2014 nahrazena operací <a href=\"http://europa.eu/rapid/press-release_MEMO-14-566_en.htm\">Triton</a>, která funguje pod agenturou EU pro pohraniční a pobřežní stráž Frontex dodnes.</p><p class=\"MsoNormal\">Státy jsou zároveň vázány <a href=\"http://encyklopedie.org/non-refoulement/\">zákazem</a> navrácení osob do původního státu, kde jim hrozilo nebezpečí, což případ Libye splňuje. Migranti jsou proto převáženi do Itálie, která bezpečným státem je.</p><p class=\"MsoNormal\">Co se týče rolí neziskových organizací, mnohé z nich jsou ze strany italské vlády <a href=\"https://www.lidovky.cz/taxisluzba-pro-migranty-podle-italskeho-ministra-zachranari-pomahaji-paserakum-gpv-/zpravy-svet.aspx?c=A170430_110335_ln_zahranici_ELE\">obviňovány</a> z pomoci pašerákům tím, že převáží migranty, kteří se snaží dostat do Evropy přes Středozemní moře. <a href=\"https://www.documentcloud.org/documents/3531244-Frontex-Triton-Analytical-Report-December-2016.html\">Zpráva</a> (str. 6) Frontexu z prosince 2016 pak zmiňuje první případ pašeráctví přímo na lodi neziskové organizace.</p><p class=\"MsoNormal\">Podle zpráv <a href=\"http://frontex.europa.eu/assets/Publications/Risk_Analysis/Annual_Risk_Analysis_2017.pdf\">Frontexu</a> (.pdf, str. 34) a Vysokého komisaře OSN pro uprchlíky je však role neziskových organizací pozitivní, neboť jsou považovány za <a href=\"http://www.unhcr.org/en-us/protection/operations/5592bd059/sea-route-europe-mediterranean-passage-age-refugees.html?query=NGO%20mediterranean\">důležitý prvek</a> (.pdf, str. 9) v záchraně životů uprchlíků. V roce 2016 byly neziskové organizace <a href=\"http://www.unhcr.org/en-us/news/press/2017/3/58dbc6b04/news-comment-volker-turk-unhcrs-assistant-high-commissioner-protection.html?query=NGO%20mediterranean\">zodpovědné</a> až za 26 % všech záchranných operacíve Středozemním moři. </p><p class=\"MsoNormal\">Operace a činnost neziskových organizací, států a mezinárodních organizací tedy mají za úkol zachraňovat uprchlíky, kteří jsou již na cestě přes Středozemní moře a kvůli špatným podmínkám na plavidlech, která pašeráci používají, jsou ve vysokém ohrožení života. Nejedná se tedy o žádné převaděčství migrantů, naopak jde o povinnost států a o pomoc neziskových organizací, která je státy převážně ceněná.</p>\n<p class=\"MsoNormal\">Co se týče českých <a href=\"https://www.zakonyprolidi.cz/cs/2009-40#f3921262\">zákonů</a> o převaděčství, za převaděče se považuje osoba, která „<i>pro jiného organizuje nedovolené překročení státní hranice nebo jinémuumožní či mu pomáhá nedovoleně překročit státní hranici nebo jinému ponedovoleném překročení státní hranice umožní či mu pomáhá přepravit se přesúzemí České republiky nebo takové přepravení organizuje</i>…“ V popisovanésituaci se však nejedná o úmyslné přepravování cizinců přes státní hranice,nýbrž o záchranné akce."
       },
       {
-        "highlightStart": 9 * 60 + 10,
-        "highlightEnd": 9 * 60 + 35,
+        "highlightStart": '9:10',
+        "highlightEnd": '9:35',
         "statement": "Tak velký problém je ten takzvaný příspěvek na bydlení, který se stal takovým zdrojem mafiánského příjmu, kdy ti organizátoři ubytoven čerpají přímo tady tu státní dotaci, dostávají nájemné, které je často vyšší, než v docela solidním bydlení ve městech, a přitom je to za velice nuzné bydlení.",
-        "result": "truth",
+        "result": "pravda",
         "explanation": "Výše doplatku na bydlení opravdu odpovídá výši nájemného, za které lze pořídit byt ve městech. Výrok proto hodnotíme jako pravdivý.<br><br>Petr Mach poukazuje na tzv. „<i>obchod s chudobou“</i>, o kterém <a href=\"http://www.ceskatelevize.cz/ct24/domaci/2083536-byznys-s-chudobou-trva-ubytovny-si-diktuji-vysoke-ceny-vetsinu-zaplati-stat\" >informovali</a> např. v dubnu 2017 Reportéři ČT. Jde o byznys, kdy majitelé a provozovatelé ubytoven profitují z ubytování lidí pobírajících sociální dávky na bydlení. Ubytovny jsou často předražené a v nevyhovujícím stavu.<br><br>Hlavním zdrojem dávek je doplatek na bydlení, upravený v zákoně <a href=\"https://www.zakonyprolidi.cz/cs/2006-111\">o pomoci v hmotné nouzi</a>. Nárok na <a href=\"https://www.zakonyprolidi.cz/cs/2006-111#f3012220\">příspěvek na bydlení</a> je <a href=\"https://www.zakonyprolidi.cz/cs/2006-111#p2-2\">posuzován</a> podle příjmu osoby, popř. podle celkových majetkových a sociálních <a href=\"https://www.zakonyprolidi.cz/cs/2006-111#p33-2\">poměrů</a>. Podmínkou nároku na doplatek na bydlení je <a href=\"https://www.zakonyprolidi.cz/cs/2006-111#f3011864\">hmotná nouze</a> žadatele. Hmotná nouze se posuzuje podle přiměřených nákladů na bydlení a tzv. <a href=\"https://www.zakonyprolidi.cz/cs/2006-111#f3012142\">částky živobytí</a>, která je určena zákonem.<br><br>Na podzim 2014 byl novelizován zákon o hmotné nouzi. <a href=\"http://www.psp.cz/sqw/historie.sqw?o=7&T=256\">Novela</a> definuje vhodné bydlení a určuje, jak musí vypadat byt, na který dostane žadatel v hmotné nouzi dávky – jedná se hlavně o zakotvení stavebních a hygienických standardů. Navíc zavádí, že místo doplatku na bydlení poskytovaného na jednu osobu je doplatek poskytnut na jednu místnost ubytovny (jeden byt), bez ohledu na to, kolik lidí v ní žije. <br><br>Druhá <a href=\"http://www.psp.cz/sqw/historie.sqw?o=7&T=783\" >novela</a> zákona o hmotné nouzi cílí přímo proti byznysu s ubytovnami, respektive upravuje a zpřísňuje podmínky, za kterých může žadatel získat doplatek na bydlení umožňující mu bydlet v „<i>substandardních formách bydlení</i>“ (tedy takových, které neodpovídají stavebně-technickým standardům). Žadatel musí mít důvod v takových prostorách bydlet (např. jedná se o místo blízké k jeho zaměstnání) a musí spolupracovat na motivačním plánu. Zároveň se novelou snížila výše dávky, kterou mohou žadatelé pro bydlení na ubytovnách získat (z 90 % pokrytých nákladů na bydlení na 80 %).<br><br>Výše doplatku na bydlení obsahuje důvodová <a href=\"http://www.psp.cz/doc/00/12/60/00126071.pdf\">zpráva</a> (.pdf, str. 23) k novele, přičemž doplatek odpovídá výši nájemného, za které lze pořídit ve městech <a href=\"http://www.cenovamapa.eu/\">nájem</a> bytu.<br><br>Situaci měl za cíl vyřešit návrh <a href=\"http://www.psp.cz/sqw/historie.sqw?o=7&t=1065\">zákona o sociálním bydlení</a>, který počítal s tím, že by osoba v bytové nouzi nebo osoba vynakládající nepřiměřeně vysoké náklady na bydlení měla nárok na sociální bydlení. Bytový fond by zajišťovala primárně obec, a to s regulovanou cenou nájmu. Tím by v podstatě vymizela potřeba těchto lidí hledat si bydlení jiným způsobem – tedy v ubytovnách – a zamezilo by se tzv. „<i>obchodu s chudobou</i>“. Návrh zákona však Parlamentem <a href=\"http://www.psp.cz/sqw/historie.sqw?o=7&t=1065\" >neprošel</a> a proto po volbách tzv. spadne pod stůl."
       },
       {
-        "highlightStart": 12 * 60 + 37,
-        "highlightEnd": 12 * 60 + 50,
+        "highlightStart": '12:37',
+        "highlightEnd": '12:50',
         "statement": "Dneska je přijatá nějaká koncepce, je to taková mapka, jaké dálnice by se měly dodělat. To jsou ty známé dálnice, které mají vést třeba z Hradce Králové na Olomouc. To jsou prostě ty nedodělané úseky.",
-        "result": "truth",
+        "result": "pravda",
         "explanation": "V červnu 2013 bylo přijato usnesení vlády č. <a href=\"https://www.mdcr.cz/getattachment/Dokumenty/Strategie/Dopravni-politika-a-MFDI/Dopravni-politika-CR-pro-obdobi-2014-2020-s-vyhled/Usnesni-Vlady-CR-k-DP.pdf.aspx\">449</a> (.pdf) k Dopravní politice České republiky pro období let 2014–2020 s výhledem do roku 2050. Tato studie má působit jako výchozí strategický <a href=\"https://www.mdcr.cz/getattachment/Dokumenty/Strategie/Dopravni-politika-a-MFDI/Dopravni-politika-CR-pro-obdobi-2014-2020-s-vyhled/Dopravni-politika-CR-2014-%E2%80%93-2020.pdf.aspx\">dokument</a> (.pdf) resortu dopravy a klade si za cíl mimo jiné (str. 52, kap. 4.4.2.2.) „<i>zkvalitnění napojení všech krajských měst na páteřní kapacitní silniční síť“</i> nebo „<i>výstavbu chybějících úseků na hlavní síti TEN-T do roku 2030“</i>. Politika transevropské dopravní sítě se týká například probíhající modernizace dálnice D1 mezi Mirošovicemi a Kývalkou.<br><br>Z dokumentu vychází i opatření (str. 49, kap. 4.4.2.), které zadává ministerstvu dopravy vytvářet v pětiletých intervalech studii Dopravní sektorové strategie. Toto potvrdila svým usnesením č. <a href=\"https://www.dopravnistrategie.cz/images/projekt/ke-stazeni/DSS2_UsneseniVlady.pdf\">850</a> (.pdf) ze dne 13. listopadu 2013 i vláda Jiřího Rusnoka. V <a href=\"https://www.dopravnistrategie.cz/images/projekt/ke-stazeni/DSS2_PrilohySouhrnnehoDokumentu.pdf\">příloze</a> (.pdf) studie lze pak nalézt jak tabulku s harmonogramem realizace Dopravní strategie pro oblast silniční infrastruktury (str. 2–3), tak i mapu se zakresleným návrhem Dopravní strategie (str. 8). "
       },
       {
-        "highlightStart": 15 * 60 + 16,
-        "highlightEnd": 15 * 60 + 42,
+        "highlightStart": '15:16',
+        "highlightEnd": '15:42',
         "statement": "Já už jsem zmínil na začátku rozhovoru ten nový Úřad pro potírání hybridních hrozeb, to je asi 20 nebo 50 úředníků, kteří sedí někde v kanceláři a dívají se, co se píše kde na různých webech. (…) Může tam být možná i nějaká jiná náplň, ale to vyplývá z toho zákona, co je jejich náplní.",
-        "result": "untruth",
+        "result": "nepravda",
         "explanation": "V případě Centra proti terorismu a hybridním hrozbám nejde o vytvoření nového úřadu, jak Mach uvádí, a náplní tohoto centra také není sedět v kanceláři a sledovat zprávy na různých webech. Monitorování dezinformací a manipulací na webech je jenom část jeho náplně (podle dostupných informací je 95 % práce neveřejné a patří mezi ni i tvorba bezpečnostní politiky a strategie). <br /><br>Ministerstvo vnitra samo uvádí, že centrum vzniklo za využití svého již stanoveného rozpočtu. Centrum je ustanoveno jako odbor v rámci ministerstva, podle mediálních <a href=\"https://zpravy.aktualne.cz/domaci/chovanec-chceme-na-vnitru-vytvorit-centrum-boje-proti-terori/r~b878f28e184311e69966002590604f2e/?redirected=1506500879\">zpráv</a> by mělo mít zhruba 30 odborníků. Jedná se o civilní zaměstnance působící v gesci ministerstva vnitra a v rámci jeho pravomocí, žádný nový zákon proto tuto činnost neupravuje. <br><br><a href=\"http://www.mvcr.cz/cthh/clanek/centrum-proti-terorismu-a-hybridnim-hrozbam.aspx\">Centrum proti terorismu a hybridním hrozbám</a> (CTHH) vzniklo na základě doporučení dokumentu <a href=\"https://www.vlada.cz/assets/media-centrum/aktualne/Audit-narodni-bezpecnosti-20161201.pdf\">Audit národní bezpečnosti 2016</a><i> </i>(.pdf). Ministr Chovanec <a href=\"https://zpravy.aktualne.cz/domaci/chovanec-chceme-na-vnitru-vytvorit-centrum-boje-proti-terori/r%7Eb878f28e184311e69966002590604f2e/?redirected=1505929903\">oznámil</a> veřejnosti záměr zřídit na ministerstvu vnitra odbor nazvaný Centrum proti terorismu a hybridním hrozbám v květnu 2016 s tím, že fungovat bude tento odbor od 1. 1. 2017.<br><br>Hodnotit, co přesně zaměstnanci Centra dělají, lze jen těžko, neboť značná část jeho výstupů (až 95 %) je <a href=\"http://zpravy.idnes.cz/centrum-proti-terorismu-a-hybridnim-hrozbam-dezinformace-vnitro-p91-/domaci.aspx?c=A170331_155837_domaci_jkk\">neveřejná</a>. Centrum se <a href=\"http://www.mvcr.cz/cthh/clanek/centrum-proti-terorismu-a-hybridnim-hrozbam.aspx\">věnuje</a> monitoringu a analýze hrozeb spojených přímo s vnitřní bezpečností státu, například <i>„</i><i style=\"\">&hellip;potenciálních incidentů v oblasti terorismu, útoků na měkké cíle a bezpečnostních aspektů migrace, extremismu, hromadných akcí, narušování veřejného pořádku a různé trestné činnosti, ale právě i dezinformačních kampaní se vztahem k vnitřní bezpečnosti státu.“</i><i> </i> <br><br>Na základě svých zjištění má Centrum navrhovat způsoby věcných nebo legislativních řešení. Veřejnosti slouží zejména oficiální <a href=\"https://twitter.com/CTHH_MV?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fwww.mvcr.cz%2Fcthh%2Fclanek%2Fcentrum-proti-terorismu-a-hybridnim-hrozbam.aspx\">twitterový účet</a> Centra, kde upozorňuje na závažné dezinformace a také dodává zdroje faktických informací, které tyto dezinformace vyvracejí, případně vydává bezpečnostní doporučení."
       },
       {
-        "highlightStart": 16 * 60 + 1,
-        "highlightEnd": 16 * 60 + 20,
+        "highlightStart": '16:01',
+        "highlightEnd": '16:20',
         "statement": "Proč má pár vyvolených firem dostat takzvanou pobídku (prostřednictvím CzechInvestu, pozn. Demagog.cz), neboli odpuštěné daně z příjmu na dobu 10 let. Když tady většina podnikatelů platí ze zisku 19% daň a oni platí 0 a platí 0 po dobu 10 let. A proč to mají dostávat jenom ti velcí, co investují nad 100 milionů a ne ti menší.",
-        "result": "misleading",
+        "result": "zavadejici",
         "explanation": "Investiční pobídky opravdu spočívají mj. v poskytnutí slevy na dani z příjmu, jejíž výše se však liší podle investora. Nárok na poskytnutí investiční pobídky se pak odvíjí podle druhu investiční akce, výše 100 milionů Kč se však vyžaduje u některých z nich. Mach tak ve výroku popisuje pouze jednu z možných situací, výrok proto hodnotíme jako zavádějící.<br /><br>Investiční pobídky jsou upraveny zákonem <a href=\"https://www.zakonyprolidi.cz/cs/2000-72\">o investičních pobídkách</a>, podle kterého může být takovou <a href=\"https://www.zakonyprolidi.cz/cs/2000-72#p1a-1-a\">pobídkou</a> nejen sleva na dani z příjmu, ale i další plnění jako převod pozemků za zvýhodněné ceny či určité druhy hmotných podpor. Jakou výši slevy na dani či hmotných podpor investor obdrží, si lze vypočítat v <a href=\"http://www.czechinvest.org/investicni-pobidky-kalkulacka-new\">kalkulačce</a> CzechInvestu.<br /><br>Nárok na investiční pobídku je pak podmíněn splněním <a href=\"https://www.zakonyprolidi.cz/cs/2000-72#p2-2\">všeobecných podmínek</a>, ve kterých není výše investice obsažena. Objevuje se až u podmínek pro investiční akci ve <a href=\"https://www.zakonyprolidi.cz/cs/2000-72#p2-3\">výrobě</a> a oblasti technologických <a href=\"https://www.zakonyprolidi.cz/cs/2000-72#p2-4\">center</a>, kde činí 100, respektive 10 milionů Kč.<br /><br>To, že nárok na investiční pobídku není vázán na investici nad 100 milionů Kč, dokládá i <a href=\"http://www.czechinvest.org/data/files/brozura-investicnich-pobidek-5717-cz.pdf\">brožura</a> (.pdf) CzechInvestu, která vztahuje výši investice pouze na určité oblasti. Povinnost investovat alespoň 100 milionů Kč se objevuje <a href=\"http://www.czechinvest.org/data/files/brozura-investicnich-pobidek-5717-cz.pdf\">pouze</a> (.pdf, str. 5) u výše zmíněné výroby a strategických investičních akcí. Při pohledu do <a href=\"http://www.czechinvest.org/data/files/udulene-investicni-pobidky-investment-incentives-granted-new-k-30-6-2017-4249-cz.xls\">seznamu</a> (.xlxs) udělených pobídek však investice přesahující 100 milionů Kč dominují.<br /><br>Dodejme, že nehodnotíme vhodnost nebo účelnost samotného systému poskytování investičních pobídek."
       },
       {
-        "highlightStart": 17 * 60 + 51,
-        "highlightEnd": 18 * 60 + 30,
+        "highlightStart": '17:51',
+        "highlightEnd": '18:30',
         "statement": "Já mám příklad pár zemí, kde si do Ústavy daly zákaz zadlužování. Já jsem často říkal příklad Švýcarska, teď už můžu přidat příklad Německa. (…) Já bych si přál, aby byla i omezena moc zvyšovat daně. To mají například ve Švýcarsku, kdy mají v Ústavě přímo zapsány limity, kolik nanejvýš může být DPH, proto tam mají tak nízké daně ve Švýcarsku.",
-        "result": "truth",
+        "result": "pravda",
         "explanation": "Ve švýcarské federální ústavě je v<a href=\"https://www.admin.ch/opc/en/classified-compilation/19995395/index.html#a126\"> článku 126</a> stanoveno, že Konfederace udržuje v průběhu času příjmy a výdaje v rovnováze. Ústava také umožňuje operativní zvýšení výdajového stropu, musí být ovšem schváleno Federálním shromážděním (článek 126, odst. 3).<br /><br>Ve švýcarské ústavě je také řečeno, že Konfederace může vybírat přímou daň v maximální výši 11,5 % z příjmu soukromých osob a v maximální výši 8,5 % čistého zisku právnických osob (<a href=\"https://www.admin.ch/opc/en/classified-compilation/19995395/index.html#a128\">článek 128</a>). Otázce DPH se věnuje <a href=\"https://www.admin.ch/opc/en/classified-compilation/19995395/index.html#a130\">článek 130</a>.<br>V německé ústavě (resp. Základním zákonu) je pak ve <a href=\"https://www.btg-bestellservice.de/pdf/80201000.pdf\">článku 115</a> řečeno, že příjmy a výdaje se v zásadě mají vzájemně kompenzovat, nesmí však překročit 0,35 % k HDP, definitivně pak pro všechny spolkové země <a href=\"https://www.irozhlas.cz/ekonomika/nemecko-zakotvilo-v-ustave-zakaz-vytvareni-novych-dluhu-spolkovymi-zememi_200906122154_lrafaelova\">bude zákaz vytváření nových dluhů platit od roku 2020.</a> To upravuje článek 143 d) Základního zákona.<br /><br>Výrok tedy hodnotíme jako pravdivý."
       },
       {
-        "highlightStart": 22 * 60 + 17,
-        "highlightEnd": 23 * 60,
+        "highlightStart": '22:17',
+        "highlightEnd": '23:00',
         "statement": "V Praze 5, kde žiju, tak tam mají asi 270 takových obřích betonových truhlíků na květiny, které nefungovaly, teď jsou někde uskladněné. (…) On byl evropský program na, na zkvalitnění ovzduší, tak vymysleli tady ty truhlíky, které ale nějak ovzduší nezkvalitňují, naopak zahřívaly celé to okolí.",
-        "result": "truth",
+        "result": "pravda",
         "explanation": "Evropský program Projekt snížení imisní zátěže z dopravy ozeleněním ulic pomocí izolační zeleně v Praze 5 jako nástroj ke zlepšení kvality ovzduší umožnil této městské části umístit do vybraných ulic betonové květináče, v nichž měly zasazené stromy a keře fungovat jako izolant sloužící k zachytávání emisí z dopravního provozu. Tento projekt schválila Rada městské části na svém <a href=\"http://www.praha5.cz/cs/zasedani-dokument/usneseni-rady/457-10-zasedani-rady-2010-03-09/5949\">zasedání dne 9. března 2010</a>. Po stížnostech nejen občanů, ale i <a href=\"http://www.praha5.cz/cs/interpelace/338\">zastupitelů</a> usilovala Praha 5 o prodej těchto truhlíků, větší část z nich (179 kusů) ale musí <a href=\"http://www.praha5.cz/cs/dokument/211778-praha-5-rozproda-cast-betonovych-kvetinacu-zbytek-je-az-do-roku-2018-vazan-dotacnim-programem?print=1\">zůstat</a> na svém místě až do roku 2018, jinak by městská část musela poskytnutou dotaci vrátit.<br /><br>Radniční odbor také <a href=\"http://regiony.impuls.cz/v-truhlicich-na-smichove-uschly-stromy-d9b-/praha.aspx?c=A150817_123610_imp-praha_kov\">čelil kritice</a>, že jsou betonové truhlíky nevhodné pro pěstování keřů a stromů, protože v letním období stromy usychaly. Betonová hmota sálala velké teplo a uvnitř truhlíků dosahovala teploty až 69 °C."
       },
       {
-        "highlightStart": 23 * 60 + 10,
-        "highlightEnd": 23 * 60 + 35,
+        "highlightStart": '23:10',
+        "highlightEnd": '23:35',
         "statement": "(V Evropském sdružení volného obchodu) nemají žádný parlament, který by jim nařídil kvóty, nebo nějaké minimální sazby daní nebo, nebo jednotnou měnu euro. Ne. Ty země jsou tam sdružené, mám teď namysli Švýcarsko, Norsko, Island, Lichtenštejnsko, asi se tam vrátí Velká Británie. Ony jsou sdružení za tím účelem, aby spolu volně obchodovaly, proto se to jmenuje Evropské sdružení volného obchodu. A mně se na to líbí tom, že se nepřehlasovávají.",
-        "result": "Evropské sdružení volného obchodu <a href=\"http://www.efta.int/about-efta/european-free-trade-association\">vzniklo </a>v 60. letech a jeho <a href=\"http://www.efta.int/about-efta/the-efta-states\">členy </a>jsou Švýcarsko, Lichtenštejnsko, Norsko a Island. <a href=\"http://dev.efta.int/About-EFTA/EFTA-through-years-747\">Zakládajícími členy</a> však byly Rakousko, Dánsko, Norsko, Portugalsko, Švédsko, Švýcarsko a Velká Británie: část členů tedy později vystoupila a přidala se do Evropského hospodářského společenství, z něhož se později vyvinula Evropská unie. Mezi oběma spolky je úzká <a href=\"http://dev.efta.int/eea/eea-agreement\">spolupráce</a>, jsou mezi nimi uzavřené dohody a pohybují se na společném evropském trhu. <br><br>Jeho hlavním účelem je ekonomická spolupráce mezi členy. Jako hlavní měny jsou používány švýcarské franky a euro. Je pravda, že Evropské sdružení volného obchodu (dále jen ESVO) parlament nemá, nicméně nejvyšším orgánem je <a href=\"http://dev.efta.int/about-efta/efta-council\">Rada</a>, ve které zasedají buďto ministři zemí, nebo stálí vyslanci. Rozhodnutí se přijímají pouze konsenzuálně a týkají se většinou vztahů s třetími stranami, dohod atd. ESVO má i další orgány, každodenní činnost zajišťuje <a href=\"http://dev.efta.int/about-efta/the-efta-secretariat\">sekretariát</a> organizace.<br><br>Je vidět, že ESVO a EU jsou spolky založené na odlišných principech a směřující k jinému cíli. Zatímco EU předpokládá větší integraci (také skrz společnou měnu) a jeho orgány přijímají i legislativu a například formulují společnou zahraniční politiku, Evropské sdružení volného obchodu se soustředí na čistě hospodářské záležitosti. Výrok Macha hodnotíme jako pravdivý.",
-        "explanation": "truth"
+        "result": "pravda",
+        "explanation": "Evropské sdružení volného obchodu <a href=\"http://www.efta.int/about-efta/european-free-trade-association\">vzniklo </a>v 60. letech a jeho <a href=\"http://www.efta.int/about-efta/the-efta-states\">členy </a>jsou Švýcarsko, Lichtenštejnsko, Norsko a Island. <a href=\"http://dev.efta.int/About-EFTA/EFTA-through-years-747\">Zakládajícími členy</a> však byly Rakousko, Dánsko, Norsko, Portugalsko, Švédsko, Švýcarsko a Velká Británie: část členů tedy později vystoupila a přidala se do Evropského hospodářského společenství, z něhož se později vyvinula Evropská unie. Mezi oběma spolky je úzká <a href=\"http://dev.efta.int/eea/eea-agreement\">spolupráce</a>, jsou mezi nimi uzavřené dohody a pohybují se na společném evropském trhu. <br><br>Jeho hlavním účelem je ekonomická spolupráce mezi členy. Jako hlavní měny jsou používány švýcarské franky a euro. Je pravda, že Evropské sdružení volného obchodu (dále jen ESVO) parlament nemá, nicméně nejvyšším orgánem je <a href=\"http://dev.efta.int/about-efta/efta-council\">Rada</a>, ve které zasedají buďto ministři zemí, nebo stálí vyslanci. Rozhodnutí se přijímají pouze konsenzuálně a týkají se většinou vztahů s třetími stranami, dohod atd. ESVO má i další orgány, každodenní činnost zajišťuje <a href=\"http://dev.efta.int/about-efta/the-efta-secretariat\">sekretariát</a> organizace.<br><br>Je vidět, že ESVO a EU jsou spolky založené na odlišných principech a směřující k jinému cíli. Zatímco EU předpokládá větší integraci (také skrz společnou měnu) a jeho orgány přijímají i legislativu a například formulují společnou zahraniční politiku, Evropské sdružení volného obchodu se soustředí na čistě hospodářské záležitosti. Výrok Macha hodnotíme jako pravdivý."
       }
     ]
   }

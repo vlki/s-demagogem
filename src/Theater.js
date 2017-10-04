@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
 import allData from './data'
-import { formatTime, convertNewlinesToBr } from './utils'
+import { formatTime, parseTime, convertNewlinesToBr } from './utils'
 
 const CHECK_PLAYER_TIME_INTERVAL_MS = 200
 
@@ -18,10 +18,21 @@ class Theater extends Component {
   constructor(props) {
     super(props)
 
+    let discussionData = allData.find(discussion => discussion.path === props.match.path)
+
+    discussionData = Object.assign({}, discussionData, {
+      checks: discussionData.checks.map(check =>
+        Object.assign({}, check, {
+          highlightStartSeconds: parseTime(check.highlightStart),
+          highlightEndSeconds: parseTime(check.highlightEnd)
+        })
+      )
+    })
+
     this.state = {
       time: null,
       shownExplanations: [],
-      discussionData: allData.find(discussion => discussion.path === props.match.path)
+      discussionData
     }
   }
 
@@ -36,7 +47,7 @@ class Theater extends Component {
 
   componentDidUpdate(prevProps, prevState) {
     if (prevState.time !== this.state.time && this.state.time !== null) {
-      let checkIndex = this.state.discussionData.checks.findIndex(check => check.highlightStart >= this.state.time) - 1
+      let checkIndex = this.state.discussionData.checks.findIndex(check => check.highlightStartSeconds >= this.state.time) - 1
       if (checkIndex < 0) {
         checkIndex = 0
       }
@@ -70,7 +81,7 @@ class Theater extends Component {
 
   handleCheckTimeClick = (e, check) => {
     if (this.player !== null) {
-      this.player.seekTo(check.highlightStart, true)
+      this.player.seekTo(check.highlightStartSeconds, true)
     }
 
     e.preventDefault()
@@ -155,20 +166,20 @@ class Theater extends Component {
               <div
                 key={index}
                 ref={checkPanel => this.checkPanels[index] = checkPanel}
-                className={'panel ' + (time >= check.highlightStart && time <= check.highlightEnd ? 'panel-primary' : 'panel-default')}
+                className={'panel ' + (time >= check.highlightStartSeconds && time <= check.highlightEndSeconds ? 'panel-primary' : 'panel-default')}
               >
                 <div className="panel-heading">
                   <span
                     style={{ display: 'inline-block' }}
-                    data-tip={`Kliknutím skočte na čas ${formatTime(check.highlightStart)}`}
+                    data-tip={`Kliknutím skočte na čas ${formatTime(check.highlightStartSeconds)}`}
                     data-for={`check-${index}`}
                   >
                     <TimeLink
-                      highlighted={time >= check.highlightStart && time <= check.highlightEnd}
+                      highlighted={time >= check.highlightStartSeconds && time <= check.highlightEndSeconds}
                       href=""
                       onClick={e => this.handleCheckTimeClick(e, check)}
                     >
-                      {formatTime(check.highlightStart)}–{formatTime(check.highlightEnd)}
+                      {formatTime(check.highlightStartSeconds)}–{formatTime(check.highlightEndSeconds)}
                     </TimeLink>
                   </span>
 
@@ -203,22 +214,28 @@ const CheckResultBadge = ({ result }) => {
   let icon
 
   switch (result) {
-    case 'truth':
+    case 'pravda':
       label = 'Pravda'
       color = '#22ab55'
       icon = 'ok-sign'
       break
 
-    case 'untruth':
+    case 'nepravda':
       label = 'Nepravda'
       color = '#ec4f2f'
       icon = 'remove-sign'
       break
 
-    case 'misleading':
+    case 'zavadejici':
       label = 'Zavádějící'
       color = '#ec912f'
       icon = 'exclamation-sign'
+      break
+
+    case 'neoveritelne':
+      label = 'Neověřitelné'
+      color = '#227594'
+      icon = 'question-sign'
       break
   }
 
